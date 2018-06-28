@@ -26,6 +26,22 @@ function cargarAPI() {
         card.add(option);
     })
 
-
+    // .then(calcular() => {
+    //         if (amountBip > 720) {
+    //             saldoFinal = amountBip - 720;
+    //             document.getElementById("costoPasaje").innerHTML = ;
+    //             document.getElementById("saldoFinal").innerHTML = saldoFinal;
+    //         } else if (amountBip > 680) {
+    //             document.getElementById("").innerHTML = '';
+    //             saldoFinal = amountBip - 680;
+    //             document.getElementById("saldo").innerHTML = saldoFinal;
+    //         } else if (amountBip > 630) {
+    //             document.getElementById("").innerHTML = '';
+    //             saldoFinal = amountBip - 630;
+    //             document.getElementById("saldo").innerHTML = saldoFinal;
+    //         } else if (amountBip < 630) {
+    //             document.getElementById("").innerHTML = "";
+    //         }
+    //     })
     .catch(error => console.log(error))
 };
