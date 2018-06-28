@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aplicación BIP!</title>
+</head>
+
+<body id="saldo">
+    <div class="row">
+        <div class="container">
+            <header>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1"></button>
+                            <span class="sr-only">Menú</span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="saldo.html">Ver Saldo</a></li>
+                                <li><a href="calculate.html">Calcular Tarifa</a></li>
+                                <li><a href="profile.html">Perfil</a></li>
+                                <li><a href="questions.html">Preguntas Frecuentes</a></li>
+                                <li><a href="index.html">Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <input type="text" id="numberCard" placeholder="Número de tarjeta bip">
+    <form action="">
+        <label for="">Tarifa</label>
+        <select name="" id="saveCard" placeholder="Choose your option">
+          <option value="">Horario Alto $760</option>
+          <option value="">Horario Medio $68</option>
+        <option value="">Horario Bajo $630</option>
+      </select>
+        <label for="">Tarjeta</label>
+        <select name="" id="saveCard">
+        <option value=""></option>
+      </select>
+    </form>
+    <button id='btnCalcular'>Calcular</button></br>
+
+    <div id="dataSaldo">
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
