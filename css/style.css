@@ -1,0 +1,53 @@
+#body {
+    background-color: rgb(62, 63, 65);
+}
+
+#saldo {
+    background-color: gray;
+}
+
+h1 {
+    color: rgb(246, 168, 0);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-control,
+.btn {
+    border-radius: 0;
+}
+
+.btn {
+    background-color: rgb(246, 168, 0);
+    border-color: rgb(246, 168, 0);
+    width: 100%;
+    color: rgb(62, 63, 65);
+}
+
+#forgotPass,
+#login {
+    color: white;
+    size: 0.5em;
+}
+
+span {
+    color: rgb(246, 168, 0);
+    font-weight: bold;
+}
+
+#login {
+    text-align: center;
+}
+
+#logo {
+    width: 40%;
+    padding-top: 80px;
+}
+
+.title {
+    text-align: center;
+}
