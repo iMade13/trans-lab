@@ -1,5 +1,4 @@
-const inputText = document.querySelector("input")
-const containerSaldo = document.getElementById("saldo")
+// const inputText = document.querySelector("input")
 document.getElementById('btnConsultarSaldo').addEventListener('click', cargarAPI)
 
 
@@ -18,14 +17,10 @@ function cargarAPI() {
             return res.json();
         })
         .then(function(data) {
-            console.log(data)
-            renderInfo(data)
+            const dataBip = Object.values(data)
+
+            let amountBip = dataBip[2];
+            document.getElementById("dataSaldo").innerHTML = `Saldo total  </br> ${amountBip}`;
         })
         .catch(error => console.log(error))
 };
-
-const renderInfo = data => {
-// const cambio = Object.entries(data)
-containerSaldo.innerHTML = data.['Saldo tarjeta'];
-});
-}
